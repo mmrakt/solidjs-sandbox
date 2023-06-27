@@ -7,6 +7,7 @@ import Todo from "./components/Todo";
 import Context from "./components/Context";
 import { ThemeProvider } from "./utils/theme";
 import { Clock } from "./components/Clock";
+import EtchASketch from "./components/EtchASketch";
 
 const App: Component = () => {
   return (
@@ -15,7 +16,8 @@ const App: Component = () => {
         {/* <Counter /> */}
         {/* <Todo /> */}
         {/* <Context /> */}
-        <Clock />
+        {/* <Clock /> */}
+        <EtchASketch />
       </div>
     </ThemeProvider>
   );
