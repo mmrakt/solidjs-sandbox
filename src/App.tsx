@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import Todo from "./components/Todo";
 import Context from "./components/Context";
 import { ThemeProvider } from "./utils/theme";
+import { Clock } from "./components/Clock";
 
 const App: Component = () => {
   return (
@@ -13,7 +14,8 @@ const App: Component = () => {
       <div class={styles.App}>
         {/* <Counter /> */}
         {/* <Todo /> */}
-        <Context />
+        {/* <Context /> */}
+        <Clock />
       </div>
     </ThemeProvider>
   );
