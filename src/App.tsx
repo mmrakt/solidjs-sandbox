@@ -9,6 +9,8 @@ import { ThemeProvider } from "./utils/theme";
 import { Clock } from "./components/Clock";
 import EtchASketch from "./components/EtchASketch";
 import Scoreboard from "./components/ScoreBoard";
+import AsyncResource from "./components/AsyncResource";
+import SuspenseTransitions from "./components/SuspenseTransitions/Index";
 
 const App: Component = () => {
   return (
@@ -19,7 +21,9 @@ const App: Component = () => {
         {/* <Context /> */}
         {/* <Clock /> */}
         {/* <EtchASketch /> */}
-        <Scoreboard />
+        {/* <Scoreboard /> */}
+        {/* <AsyncResource /> */}
+        <SuspenseTransitions />
       </div>
     </ThemeProvider>
   );
