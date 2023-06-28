@@ -8,6 +8,7 @@ import Context from "./components/Context";
 import { ThemeProvider } from "./utils/theme";
 import { Clock } from "./components/Clock";
 import EtchASketch from "./components/EtchASketch";
+import Scoreboard from "./components/ScoreBoard";
 
 const App: Component = () => {
   return (
@@ -17,7 +18,8 @@ const App: Component = () => {
         {/* <Todo /> */}
         {/* <Context /> */}
         {/* <Clock /> */}
-        <EtchASketch />
+        {/* <EtchASketch /> */}
+        <Scoreboard />
       </div>
     </ThemeProvider>
   );
